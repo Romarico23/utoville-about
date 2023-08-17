@@ -1,0 +1,70 @@
+import React from "react";
+
+export const Page14 = () => {
+  return (
+    <div className="page14">
+      <div className="page14-wrapper">
+        <img
+          src="http://home.utoville.com/static/user/img/subscribe/about/utoville_logo.png"
+          alt=""
+        />
+        <h1>Regular Visit Housing Care Service</h1>
+        <div>
+          <img
+            src="http://home.utoville.com/static/user/img/subscribe/about/sewage_pipe.jpg"
+            alt=""
+          />
+          <ul>
+            <h3>Problems with Uncleaned Sewage Piping</h3>
+            <li>
+              Causes various skin diseases due to foreign substances such as
+              rust
+            </li>
+            <li>Reduction of pipe life due to accumulated sludge in pipes</li>
+            <li>Lower Water Pressure and Rising Water Taxes</li>
+          </ul>
+        </div>
+        <div>
+          <img
+            src="http://home.utoville.com/static/user/img/subscribe/about/uncleaned_mattress.jpg"
+            alt=""
+          />
+          <ul>
+            <h3>Problems with Uncleaned Mattresses</h3>
+            <li>Allergy caused by dust and mites</li>
+            <li>Eczema</li>
+            <li>Causing various dermatitis</li>
+          </ul>
+        </div>
+        <div>
+          <img
+            src="http://home.utoville.com/static/user/img/subscribe/about/kitchen_hood_filter.jpg"
+            alt=""
+          />
+          <div>
+            <ul>
+              <h3>Problems with Uncleaned Kitchen Hood Filters</h3>
+              <li>Risk of fire due to oil stains in the filter</li>
+              <li>Inducement of lung cancer in housewives</li>
+              <li>Reduced hood function and causing odor</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <img
+            src="http://home.utoville.com/static/user/img/subscribe/about/undisinfected_house.jpg"
+            alt=""
+          />
+          <div>
+            <ul>
+              <h3>Problems with Undisinfected Houses</h3>
+              <li>Risk of daily infection due to droplets & aerosols</li>
+              <li>Other more infection from face-to-face family</li>
+              <li>The spread of bacteria and viruses</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};

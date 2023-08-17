@@ -23,10 +23,7 @@ export const Page1 = () => {
           </div>
         </div>
         <div className="page1-img">
-          <img
-            src="http://home.utoville.com/static/user/img/subscribe/about/checker_img.jpg"
-            alt=""
-          />
+          <img src="https://i.ibb.co/3dgdMm3/checker-img.jpg" alt="" />
         </div>
       </div>
     </div>

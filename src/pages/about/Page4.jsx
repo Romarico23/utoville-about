@@ -4,73 +4,9 @@ import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
 import { images } from "../../assets/page4images";
 import { BiRightArrow } from "react-icons/bi";
+import { useAnimate, useInView } from "framer-motion";
 
 export const Page4 = () => {
-  //   const [currentIndex, setCurrentIndex] = useState(0);
-
-  //   const goToNextImage = () => {
-  //     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-  //   };
-
-  //   const goToPrevImage = () => {
-  //     setCurrentIndex(
-  //       (prevIndex) => (prevIndex - 1 + images.length) % images.length
-  //     );
-
-  //   };
-  //   console.log(images);
-
-  //   const [currentIndex, setCurrentIndex] = useState(0);
-
-  //   const handleDragEnd = (event, info) => {
-  //     if (info.offset.x > 50) {
-  //       goToPreviousSlide();
-  //     } else if (info.offset.x < -50) {
-  //       goToNextSlide();
-  //     }
-  //   };
-
-  //   const goToPreviousSlide = () => {
-  //     setCurrentIndex(
-  //       (prevIndex) => (prevIndex - 1 + images.length) % images.length
-  //     );
-  //   };
-
-  //   const goToNextSlide = () => {
-  //     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-  //   };
-
-  //   console.log(currentIndex);
-
-  //   const [width, setWidth] = useState(0);
-
-  //   const carousel = useRef();
-
-  //   useEffect(() => {
-  //     setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
-  //     // setWidth(window.innerWidth);
-  //   }, []);
-
-  //   const [index, setIndex] = useState(0);
-
-  //   const nextStep = () => {
-  //     if (index === images.length - 1) {
-  //       setIndex(0);
-  //       return;
-  //     }
-  //     setIndex(index + 1);
-  //   };
-
-  //   const prevStep = () => {
-  //     if (index === 0) {
-  //       setIndex(images.length - 1);
-  //       return;
-  //     }
-  //     setIndex(index - 1);
-  //   };
-
-  //   console.log(index);
-
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -89,8 +25,17 @@ export const Page4 = () => {
     },
   };
 
+  const [scopePromises, animatePromises] = useAnimate();
+  const isInViewPromises = useInView(scopePromises, { once: true });
+
+  useEffect(() => {
+    if (isInViewPromises) {
+      animatePromises("div", { opacity: [0, 1] }, { duration: 1, delay: 0.3 });
+    }
+  }, [isInViewPromises]);
+
   return (
-    <div className="page4">
+    <div className="page4" ref={scopePromises}>
       <div className="page4-wrapper">
         <motion.div className="page4-col-1">
           <Carousel

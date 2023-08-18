@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useAnimate, useInView } from "framer-motion";
 
 export const Page1 = () => {
+  const [scopePromises, animatePromises] = useAnimate();
+  const isInViewPromises = useInView(scopePromises, { once: true });
+
+  useEffect(() => {
+    if (isInViewPromises) {
+      animatePromises("div", { opacity: [0, 1] }, { duration: 1, delay: 0.3 });
+    }
+  }, [isInViewPromises]);
+
   return (
-    <div className="page1">
+    <div className="page1" ref={scopePromises}>
       <div className="page1-wrapper">
         <div className="page1-header">
           <div className="header-wrapper">

@@ -1,8 +1,17 @@
-import React from "react";
+import { useAnimate, useInView } from "framer-motion";
+import React, { useEffect } from "react";
 
 export const Page6 = () => {
+  const [scopePromises, animatePromises] = useAnimate();
+  const isInViewPromises = useInView(scopePromises, { once: true });
+
+  useEffect(() => {
+    if (isInViewPromises) {
+      animatePromises("div", { opacity: [0, 1] }, { duration: 1, delay: 0.3 });
+    }
+  }, [isInViewPromises]);
   return (
-    <div className="page6">
+    <div className="page6" ref={scopePromises}>
       <div className="page6-wrapper">
         <div className="page6-col-1">
           <h1>We clean every day, Will it really be clean?</h1>

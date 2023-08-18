@@ -34,10 +34,6 @@ export const Navbar = () => {
     }
   });
 
-  const windowScrollToTop = () => {
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-  };
-
   return (
     <div
       className="navbar"
@@ -51,7 +47,7 @@ export const Navbar = () => {
       <div className="header">
         <a href="" className="utoville-logo">
           <img
-            src="http://home.utoville.com/static/user/img/logo/logo.png"
+            src="https://imageupload.io/ib/CsM5m1TV6huQLIy_1692322886.png"
             alt=""
           />
         </a>

@@ -1,8 +1,17 @@
-import React from "react";
+import { useAnimate, useInView } from "framer-motion";
+import React, { useEffect } from "react";
 
 export const Page7 = () => {
+  const [scopePromises, animatePromises] = useAnimate();
+  const isInViewPromises = useInView(scopePromises, { once: true });
+
+  useEffect(() => {
+    if (isInViewPromises) {
+      animatePromises("div", { opacity: [0, 1] }, { duration: 1, delay: 0.3 });
+    }
+  }, [isInViewPromises]);
   return (
-    <div className="page7">
+    <div className="page7" ref={scopePromises}>
       <div className="page7-wrapper">
         <img
           src="https://imageupload.io/ib/BpldrrhgIKlTGn5_1692320631.jpg"

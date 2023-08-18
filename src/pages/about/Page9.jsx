@@ -1,8 +1,17 @@
-import React from "react";
+import { useAnimate, useInView } from "framer-motion";
+import React, { useEffect } from "react";
 
 export const Page9 = () => {
+  const [scopePromises, animatePromises] = useAnimate();
+  const isInViewPromises = useInView(scopePromises, { once: true });
+
+  useEffect(() => {
+    if (isInViewPromises) {
+      animatePromises("div", { opacity: [0, 1] }, { duration: 1, delay: 0.3 });
+    }
+  }, [isInViewPromises]);
   return (
-    <div className="page9">
+    <div className="page9" ref={scopePromises}>
       <div className="page9-wrapper">
         <div className="page9-col-1 page9-col">
           <h4>Kitchen basin & drain</h4>

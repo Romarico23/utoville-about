@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { AiOutlineCheckCircle } from "react-icons/ai";
+import { useAnimate, useInView } from "framer-motion";
 
 export const Page2 = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -18,8 +19,17 @@ export const Page2 = () => {
     };
   }, []);
 
+  const [scopePromises, animatePromises] = useAnimate();
+  const isInViewPromises = useInView(scopePromises, { once: true });
+
+  useEffect(() => {
+    if (isInViewPromises) {
+      animatePromises("div", { opacity: [0, 1] }, { duration: 1, delay: 0.3 });
+    }
+  }, [isInViewPromises]);
+
   return (
-    <div className="page2">
+    <div className="page2" ref={scopePromises}>
       <div className="page2-wrapper">
         <div className="page2-col-1">
           <h1>Why Inspection is Important?</h1>

@@ -5,13 +5,13 @@ export const Page14 = () => {
     <div className="page14">
       <div className="page14-wrapper">
         <img
-          src="http://home.utoville.com/static/user/img/subscribe/about/utoville_logo.png"
+          src="https://imageupload.io/ib/CsM5m1TV6huQLIy_1692322886.png"
           alt=""
         />
         <h1>Regular Visit Housing Care Service</h1>
         <div>
           <img
-            src="http://home.utoville.com/static/user/img/subscribe/about/sewage_pipe.jpg"
+            src="https://imageupload.io/ib/yiP8PtJtPz8v7Yc_1692324105.jpg"
             alt=""
           />
           <ul>
@@ -26,7 +26,7 @@ export const Page14 = () => {
         </div>
         <div>
           <img
-            src="http://home.utoville.com/static/user/img/subscribe/about/uncleaned_mattress.jpg"
+            src="https://imageupload.io/ib/J21rbFmZk1PZGBz_1692324105.jpg"
             alt=""
           />
           <ul>
@@ -38,7 +38,7 @@ export const Page14 = () => {
         </div>
         <div>
           <img
-            src="http://home.utoville.com/static/user/img/subscribe/about/kitchen_hood_filter.jpg"
+            src="https://imageupload.io/ib/BZfRoIbFiOdCFzk_1692324105.jpg"
             alt=""
           />
           <div>
@@ -52,7 +52,7 @@ export const Page14 = () => {
         </div>
         <div>
           <img
-            src="http://home.utoville.com/static/user/img/subscribe/about/undisinfected_house.jpg"
+            src="https://imageupload.io/ib/q8ZrOezdKHfZkLP_1692324105.jpg"
             alt=""
           />
           <div>

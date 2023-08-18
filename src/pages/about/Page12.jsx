@@ -5,7 +5,7 @@ export const Page12 = () => {
     <div className="page12">
       <div className="page12-wrapper">
         <img
-          src="http://home.utoville.com/static/user/img/subscribe/about/utoville_logo.png"
+          src="https://imageupload.io/ib/CsM5m1TV6huQLIy_1692322886.png"
           alt=""
         />
         <h1>Regular Visit Housing Care Service</h1>
@@ -14,21 +14,21 @@ export const Page12 = () => {
         <ul>
           <li>
             <img
-              src="http://home.utoville.com/static/user/img/subscribe/about/kitchen_cleaning.jpg"
+              src="https://imageupload.io/ib/As1C7AvF7qhhJdT_1692323101.jpg"
               alt=""
             />
             <h3>Kitchen Cleaning</h3>
           </li>
           <li>
             <img
-              src="http://home.utoville.com/static/user/img/subscribe/about/bathroom_cleaning.jpg"
+              src="https://imageupload.io/ib/66fzoZhA9jA6jm6_1692323101.jpg"
               alt=""
             />
             <h3>Bathroom Cleaning</h3>
           </li>
           <li>
             <img
-              src="http://home.utoville.com/static/user/img/subscribe/about/mattress_cleaning.jpg"
+              src="https://imageupload.io/ib/qWKUpYQwyUhlzXQ_1692323101.jpg"
               alt=""
             />
             <h3>Mattress Cleaning</h3>

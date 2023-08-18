@@ -5,7 +5,7 @@ export const Page11 = () => {
     <div className="page11">
       <div className="page11-wrapper">
         <img
-          src="http://home.utoville.com/static/user/img/subscribe/about/utoville_logo.png"
+          src="https://imageupload.io/ib/CsM5m1TV6huQLIy_1692322886.png"
           alt=""
         />
         <h1>Regular Visit Housing Care Service</h1>

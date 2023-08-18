@@ -7,25 +7,25 @@ export const Page6 = () => {
         <div className="page6-col-1">
           <h1>We clean every day, Will it really be clean?</h1>
           <img
-            src="http://home.utoville.com/static/user/img/subscribe/about/bacteria1.svg"
+            src="https://imageupload.io/ib/bdYrpK4vEVha1QD_1692319550.png"
             alt=""
           />
         </div>
         <div className="page6-col-2">
           <img
-            src="http://home.utoville.com/static/user/img/subscribe/about/bacteria2.svg"
+            src="https://imageupload.io/ib/sMSRvCQyHDxnjK8_1692319550.png"
             alt=""
           />
           <img
-            src="http://home.utoville.com/static/user/img/subscribe/about/bacteria3.png"
+            src="https://imageupload.io/ib/gaXSF1bIlF88CNa_1692319551.png"
             alt=""
           />
           <img
-            src="http://home.utoville.com/static/user/img/subscribe/about/bacteria5.svg"
+            src="https://imageupload.io/ib/VnBwbHLDJnMfuAp_1692319550.png"
             alt=""
           />
           <img
-            src="http://home.utoville.com/static/user/img/subscribe/about/bacteria4.svg"
+            src="https://imageupload.io/ib/KG2UfdYjkbZdtST_1692319550.png"
             alt=""
           />
         </div>
@@ -39,15 +39,15 @@ export const Page6 = () => {
         </div>
         <div className="page6-col-4">
           <img
-            src="http://home.utoville.com/static/user/img/subscribe/about/bacteria6.svg"
+            src="https://imageupload.io/ib/b8huWkmPu7YDDso_1692320080.png"
             alt=""
           />
           <img
-            src="http://home.utoville.com/static/user/img/subscribe/about/bacteria7.svg"
+            src="https://imageupload.io/ib/xCfBKrqWvQiXfGA_1692320080.png"
             alt=""
           />
           <img
-            src="http://home.utoville.com/static/user/img/subscribe/about/bacteria8.png"
+            src="https://imageupload.io/ib/1dThzMDs6Cwtb4M_1692320080.png"
             alt=""
           />
         </div>

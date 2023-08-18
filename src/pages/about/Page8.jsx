@@ -6,7 +6,7 @@ export const Page8 = () => {
       <div className="page8-wrapper">
         <div className="page8-col-1">
           <img
-            src="http://home.utoville.com/static/user/img/subscribe/about/590d7a2f347d38de3c8318b777f216c7.svg"
+            src="https://imageupload.io/ib/K1P9RLzcLQ3eqc2_1692320970.png"
             alt=""
           />
           <h1>
@@ -16,10 +16,9 @@ export const Page8 = () => {
         <div className="page8-col-2">
           <div className="subcol-1">
             <img
-              src="http://home.utoville.com/static/user/img/subscribe/about/whatshoudido.jpg"
+              src="https://imageupload.io/ib/hbFUpvtGCu6I3ph_1692320970.jpg"
               alt=""
             />
-
             <span>
               <p>
                 It's frustrating to find a contractor every time, and I think

@@ -5,10 +5,9 @@ export const Page7 = () => {
     <div className="page7">
       <div className="page7-wrapper">
         <img
-          src="http://home.utoville.com/static/user/img/subscribe/about/baby_mask.jpg"
+          src="https://imageupload.io/ib/BpldrrhgIKlTGn5_1692320631.jpg"
           alt=""
         />
-        <h3></h3>
         <h3>
           They can cause atopic dermatitis intensifies, eczema, sensitive
           dermatitis, and various allergic skin diseases.

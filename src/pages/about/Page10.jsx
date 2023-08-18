@@ -6,7 +6,7 @@ export const Page10 = () => {
       <div className="page10-wrapper">
         <div className="page10-col-1">
           <img
-            src="http://home.utoville.com/static/user/img/subscribe/about/utoville_logo.png"
+            src="https://imageupload.io/ib/CsM5m1TV6huQLIy_1692322886.png"
             alt=""
           />
           <h1>The answer is UTOVILLE</h1>
@@ -25,12 +25,12 @@ export const Page10 = () => {
               <li>Kitchen Hood Clean</li>
               <li>Grease Trap Cleaning</li>
             </ul>
-            <h1>ALL-IN-ONE</h1>
+            <h1 style={{ color: "red" }}>ALL-IN-ONE</h1>
             <h2>Solve it all at one-go with UTOVILLE</h2>
           </div>
           <div className="col-2-subcol-2">
             <img
-              src="http://home.utoville.com/static/user/img/subscribe/about/clening_service_woman.png"
+              src="https://imageupload.io/ib/bcHqW5gWiP8RMTf_1692322887.png"
               alt=""
             />
           </div>

@@ -1,32 +1,26 @@
 export const images = [
   {
-    imageUrl:
-      "http://home.utoville.com/static/user/img/subscribe/about/page4_img1.jpg",
+    imageUrl: "https://imageupload.io/ib/1bEwUHYC1nYbx66_1692318146.jpg",
     caption: "Bathroom Drain",
   },
   {
-    imageUrl:
-      "http://home.utoville.com/static/user/img/subscribe/about/page4_img2.jpg",
+    imageUrl: "https://imageupload.io/ib/PZD9MuYXynoxjnn_1692318146.jpg",
     caption: "Bed\n(Light stain removal)\n(Disinfection)",
   },
   {
-    imageUrl:
-      "http://home.utoville.com/static/user/img/subscribe/about/page4_img3.jpg",
+    imageUrl: "https://imageupload.io/ib/iydWT88mXXx9Bs0_1692318146.jpg",
     caption: "Kitchen Hood",
   },
   {
-    imageUrl:
-      "http://home.utoville.com/static/user/img/subscribe/about/page4_img4.jpg",
+    imageUrl: "https://imageupload.io/ib/airIyqVfJDwUHii_1692318321.jpg",
     caption: "Carpet\n(Light stain removal)",
   },
   {
-    imageUrl:
-      "http://home.utoville.com/static/user/img/subscribe/about/page4_img5.jpg",
+    imageUrl: "https://imageupload.io/ib/LVSzoO6qlhj47TJ_1692318320.jpg",
     caption: "Grease Trap",
   },
   {
-    imageUrl:
-      "http://home.utoville.com/static/user/img/subscribe/about/page4_img6.jpg",
+    imageUrl: "https://imageupload.io/ib/XoR33TPY0Q9tYud_1692318320.jpg",
     caption: "Sofa\n(Light stain removal)\n(Disinfection)",
   },
 ];

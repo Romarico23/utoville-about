@@ -76,31 +76,19 @@ export const Page2 = () => {
         </div>
         <div className="page2-col-2">
           <img
-            src={
-              currentPage === 1 &&
-              "http://home.utoville.com/static/user/img/subscribe/about/tab1.jpg"
-            }
+            src={currentPage === 1 && "https://i.ibb.co/LRFLR33/tab1.jpg"}
             alt=""
           />
           <img
-            src={
-              currentPage === 2 &&
-              "http://home.utoville.com/static/user/img/subscribe/about/tab2.jpg"
-            }
+            src={currentPage === 2 && "https://i.ibb.co/jkhgsKM/tab2.jpg"}
             alt=""
           />
           <img
-            src={
-              currentPage === 3 &&
-              "http://home.utoville.com/static/user/img/subscribe/about/tab3.jpg"
-            }
+            src={currentPage === 3 && "https://i.ibb.co/xLcrdXw/tab3.jpg"}
             alt=""
           />
           <img
-            src={
-              currentPage === 4 &&
-              "http://home.utoville.com/static/user/img/subscribe/about/tab4.jpg"
-            }
+            src={currentPage === 4 && "https://i.ibb.co/42nf09S/tab4.jpg"}
             alt=""
           />
         </div>
